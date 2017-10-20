@@ -1,15 +1,17 @@
 var React = require('react');
+var createReactClass = require('create-react-class');
 var AppActions = require('../actions/AppActions');
 var AppStore = require('../stores/AppStore');
+var SearchForm = require('./SearchForm.js');
 
-class App extends React.Component {
-    render() {
+var App = createReactClass({
+    render: function(){
         return (
             <div>
-                MY APP
+                <SearchForm />
             </div>
         )
     }
-}
+});
 
 module.exports = App;

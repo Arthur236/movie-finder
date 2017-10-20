@@ -1,3 +1,3 @@
 # Movie Finder
 
-This is a simple React application for searching movies.
+This is a simple React and Flux application for searching movies.
